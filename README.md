@@ -4,8 +4,6 @@
 > 4-DOF aluminium robotic arm designed for pick-and-place and fine assembly tasks.
 > Built by P1 Group 5, BITS Pilani — Section P1 (Jan – Apr 2025).
 
-![Isometric View](media/isometric.png)
-
 ## Overview
 
 A robotic manipulator fabricated entirely from aluminium, designed for precision
@@ -16,25 +14,28 @@ manufacturing labs.
 > **Note:** Servo actuation was planned but not implemented in this phase.
 > Motor mounts and encoder brackets were designed and are ready for integration.
 
+## Assembly Videos
+
+| Video 1 | Video 2 |
+|---------|---------|
+| [Watch on Google Drive](https://drive.google.com/file/d/1f41ClbCUIRSyujJ2uL3KGvhIeR0ozCpY/view?usp=drive_link) | 
+[Watch on Google Drive](https://drive.google.com/file/d/1rTBiWKqC-n_0LCoSDQR9-NaHG3v_OXPq/view?usp=drive_link) |
+
+## Files in this Repo
+
+| File | Description |
+|------|-------------|
+| `Final_Assembly.SLDASM` | Full SolidWorks assembly file |
+| `Corrected Drawings.zip` | Engineering drawings for all parts |
+| `Robotic Arm P1,G5.docx - Google Docs.pdf` | Full project report with BOM and process details |
+
 ## Features
 
 - 4 degrees of freedom with parallelogram linkage for end-effector orientation stability
-- Bell-crank mechanism constraining arm motion throughout full range
+- Bell-crank mechanism constraining arm motion throughout full range of motion
 - Complete 28-part aluminium Bill of Materials with engineering drawings
 - Servo and encoder mounts designed for future actuation integration
 - Standard M3 / M4 / M6 stainless steel fasteners throughout
-
-## CAD Views
-
-| Side View | Isometric View |
-|-----------|---------------|
-| ![side](media/side_view.png) | ![iso](media/isometric.png) |
-
-| Top View | Front View |
-|----------|-----------|
-| ![top](media/top_view.png) | ![front](media/front_view.png) |
-
-Assembly videos: [Google Drive](https://drive.google.com/drive/folders/1t2eTLGanw_q-xP1X9Zex6FVyx89WHU4U?usp=sharing)
 
 ## Bill of Materials (summary)
 
@@ -48,7 +49,7 @@ Assembly videos: [Google Drive](https://drive.google.com/drive/folders/1t2eTLGan
 | 6 | Clamps & mounts | Aluminium | 3 |
 | 7 | Fasteners (M3 / M4 / M6 screws, washers, standoffs) | Stainless steel | 74+ |
 
-Full BOM in [`docs/report.pdf`](docs/report.pdf)
+Full details in `Robotic Arm P1,G5.docx - Google Docs.pdf`
 
 ## Manufacturing Processes
 
@@ -56,25 +57,6 @@ Full BOM in [`docs/report.pdf`](docs/report.pdf)
 - **Sheet metal forming** — bends in structural components
 - **Lathe** — spacers and cylindrical parts
 - **CNC milling** — hole drilling and surface profiling
-
-## Repository Structure
-
-```
-robotic-arm/
-├── README.md
-├── CAD/
-│   ├── Final_Assembly.SLDASM
-│   └── parts/              ← individual .SLDPRT files
-├── Drawings/               ← corrected engineering drawings
-├── docs/
-│   └── report.pdf
-└── media/
-    ├── side_view.png
-    ├── top_view.png
-    ├── front_view.png
-    ├── back_view.png
-    └── isometric.png
-```
 
 ## Team
 
@@ -95,4 +77,4 @@ Section P1, Group 5 — BITS Pilani (2025)
 
 ## License
 
-MIT — CAD files free to use for educational purposes.
+MIT — files free to use for educational purposes.poses.
